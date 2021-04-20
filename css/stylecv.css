@@ -1,0 +1,126 @@
+
+div
+{
+    height: 200px;
+    border:black 1px;
+}
+
+#entete 
+{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(96, 203, 218);
+}
+
+
+
+ #info
+ {
+     flex: 3;
+     width: 45%;
+     justify-content: center;
+     color: white;
+ }
+
+ #contact
+ {
+    flex: 1,75; 
+    width: 40%;
+    justify-content: center;
+    color: white;
+
+ }
+
+ #photo
+ {
+     float: right;
+     flex: 2;
+     width: 15%;
+     height: 160px;
+ }
+
+
+
+#corpscv
+{
+    background-color: rgb(114, 114, 219);
+}
+
+
+
+
+
+.nomprénom
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+ #corpscv 
+{
+    display: flex;
+    height: auto;
+}
+
+#bandeauG
+{
+    flex: 5;
+    height: auto;
+}
+
+#bandeauD
+{
+    flex: 2; 
+    height: 1400px;
+}
+
+#formation
+{
+    height: 40%;
+}
+
+#stages
+{
+    height: 50%;
+}
+
+#projets
+{
+    height: 10%;
+}
+
+.softskills  
+{
+    height:20%;
+}
+
+
+/*#Langues
+{
+
+    height: 10%
+}
+
+#Compétences
+{
+ 
+    height:40%
+}
+
+#Atouts
+{
+
+    height: 10%;
+}
+
+#expé
+{
+
+    height: 20%;
+}
+
+#centres
+{
+
+    height:20%;
+}*/
